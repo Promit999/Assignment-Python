@@ -6,7 +6,6 @@ count = 0
 while countx > 0:
     countx = countx // 10
     count +=1
-#n = len(str(x))
 if countx == 0:
     while x > 0:
         ld = x % 10
@@ -18,4 +17,5 @@ if countx == 0:
     if summ == original:
         print("the number: " + str(original) + " is an armstrong number")
     elif summ != original:
+
         print("the number: " + str(original) + " is not an armstrong number")
